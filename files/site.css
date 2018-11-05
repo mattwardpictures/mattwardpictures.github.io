@@ -1,0 +1,64 @@
+/* CSS Document */
+
+/* Global style controls for the site */
+
+html {overflow-y:scroll;}
+
+body {background-color: #BF3838; font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #FFFFFF; margin: auto;}
+
+/* The SHELL sets background-color for the content area of the page. The color of the FOOTER is actually dictated above, by the 'body'.*/
+
+#shell {background-color:#000000; min-height:800px; padding-bottom:30px; border-bottom: 5px solid #FFFFFF;}
+
+	#page {width:1200px; margin:auto; padding-top:10px; margin-bottom:20px;}
+
+		/* HEADER */
+
+		#header {height: 300px; text-align: center; justify-content: center; overflow: hidden;}
+		#logo {background :url(../images/RedTumblrMWPLogo.png) no-repeat; 
+			background-size: contain; background-position: center; height: 270px; width: 400px; margin-left: auto; margin-right: auto; border: none;}
+
+		/* NAVIGATION */
+
+		#menu {max-height: 20px; letter-spacing: 2pt; word-spacing: 10pt;}
+		#menu ul {list-style: none; margin-left: auto; margin-right: auto; padding-left: 0px; padding-right: 20px;}
+		#menu ul li {display: inline-block;}
+		#menu ul li a {text-decoration: none; color: #999999;}
+		#menu ul li a.current, #main_menu ul li a: hover {color:#666666;}
+
+		/* GALLERY */
+
+		#gallery {padding-top: 50px; padding-bottom: 50px; text-align: center; justify-content: center; margin-left: auto; margin-right: auto;}
+
+		#gallery ul {list-style: none; padding-bottom: 20px; margin-left: auto; margin-right: auto;}
+		#gallery ul li {display: inline-block; padding-left: 5px; padding-right: 5px;}
+		#gallery ul li img {max-height: 500px;}
+
+		/* ABOUT */
+
+		#content {text-align: center; justify-content: center;}
+		#content table {text-align: center; margin-left: auto; margin-right: auto;}
+		#portrait {padding-top: 50px; padding-bottom: 50px;}
+		#portrait img {max-height: 500px; border: #FFFFFF solid 5px; margin-left: auto; margin-right: auto;}
+
+/* FOOTER */
+	
+#footer {width:1220px; max-width:1220px; margin:auto; clear:both; color:#999999; text-align:center; padding:10px 0px 100px 0px;}
+
+	/* FOOTER NAVIGATION */
+
+	#lowerNavigation {font-size:14px; padding-right: 40px; max-heit: 20px; word-spacing: 10pt;}
+	#lowerNavigation ul {list-style: none; margin-left: auto; margin-right: auto;}
+	#lowerNavigation ul li {display: inline-block;}
+	#lowerNavigation ul li a {text-decoration: none; color: #FFFFFF;}
+
+	/* SOCIAL NAVIGATION */
+
+	#socialNavigation ul {list-style: none; margin-left: auto; margin-right: auto;}
+	#socialNavigation ul li {display: inline-block;}
+	#socialNavigation ul li a img {width: 30px; height: 30px;}
+
+	/* COPYRIGHT NOTICE */
+
+	#copyright {padding-left: 25px;}
+	#copyright p {font-size: 11px; color: #FFFFFF;}
